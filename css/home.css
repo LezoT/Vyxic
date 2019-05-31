@@ -25,6 +25,11 @@ header {
 	background: #8c1a25;
 }
 
+section {
+	background-size: cover;
+}
+
+
 div {
   animation-delay: 2s;
 }
@@ -43,7 +48,7 @@ div {
 }
 
 .logo img {
-	width: 20px;
+	width: 250px;
 	margin-left: 30px;
 	margin-top: 10px;
 }
@@ -60,7 +65,11 @@ div {
 
 .img2 .logo2{
 	padding: 10px;
-	width: 150px;
+	width: 500px;
+}
+
+.logo2 {
+width: 300px;
 }
 
 .img {
@@ -92,6 +101,9 @@ div {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+
+
 
 .split,
 .vote {
